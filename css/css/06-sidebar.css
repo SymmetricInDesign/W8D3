@@ -60,32 +60,4 @@
     padding: 5px;
 }
 
-.profile-bots img{
-    border: 1px solid black;
-    border-radius: 5px;
-    
-}
-
-.thumb:hover::after{
-    display: block;
-}
-
-.thumb::before{
-    content: "";
-}
-
-.thumb::after{
-    content: attr(title);
-    display: none;
-    position: absolute;
-    background-color: black;
-    color: white;
-    font-size: 12px;
-    padding: 5px;
-    width: 49px;
-    text-align: center;
-    transform: translateY(-100%);
-    border: inherit;
-    border-radius: 2px;
-}
 
